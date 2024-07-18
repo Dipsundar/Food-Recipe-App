@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- favicon  -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./Favicon/apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./Favicon/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./Favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./Favicon/site.webmanifest" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title  -->
+    <title>Food Recipe App - Dipsundar</title>
+    <!-- css  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header stars  -->
+    <header>
+      <h1>Food Recipe App</h1>
+      <!-- search div  -->
+      <div class="search">
+        <!-- search input box  -->
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Enter any ingredients..." />
+        <!-- search button  -->
+        <button id="searchBtn">Search</button>
+      </div>
+    </header>
+    <!-- header ends  -->
+
+    <!-- meal list starts  -->
+    <div id="mealList" class="meal-list"></div>
+    <!-- meal list ends  -->
+
+    <!-- modal container starts  -->
+    <div class="modal-container">
+      <!-- recipe close button  -->
+      <button id="recipeCloseBtn" class="close-btn">&times;</button>
+      <!-- meal details content  -->
+      <div class="meal-details-content">
+        <!--? Content from javascript will inserted dynamically inserted here ..  -->
+      </div>
+    </div>
+    <!-- modal container ends  -->
+
+    <!-- footer starts  -->
+    <footer>
+      <p>&copy;Copyright dipsundarmajhi@gmail.com</p>
+    </footer>
+    <!-- footer ends  -->
+
+    <!-- javascript script  -->
+    <script src="index.js" defer></script>
+  </body>
+</html>
